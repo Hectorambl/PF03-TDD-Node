@@ -7,7 +7,7 @@ Actividad PF03 de Proyecto Intermodular (2º DAW): implementación de las funcio
 | Alumno | Nombre | Usuario de GitHub |
 |---|---|---|
 | A | Héctor Ambit Luchoro | [Hectorambl](https://github.com/Hectorambl) |
-| B | Vicente Requena Server | [USUARIO_DE_VICENTE](https://github.com/USUARIO_DE_VICENTE) |
+| B | Vicente Requena Server | [VicenteRS15](https://github.com/VicenteRS15) |
 
 ## Reparto del trabajo
 
