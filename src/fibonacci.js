@@ -1,3 +1,20 @@
 export function fibonacci(n) {
-    return undefined;
+    if (typeof n !== 'number' || !Number.isInteger(n) || n < 0 || n > 78) {
+        throw new RangeError('solo números enteros entre 0 y 78');
+    }
+
+    if (n <= 1) {
+        return n;
+    }
+
+    let a = 0;
+    let b = 1;
+
+    for (let i = 2; i <= n; i++) {
+        let siguiente = a + b;
+        a = b;
+        b = siguiente;
+    }
+
+    return b;
 }
