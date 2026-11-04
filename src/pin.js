@@ -7,18 +7,19 @@ export function esPinValido(pin) {
     return false;
   }
 
-  for (const caracter of pin) {
-    if (caracter < '0' || caracter > '9') {
+  for (const digito of pin) {
+    if (digito < '0' || digito > '9') {
       return false;
     }
   }
 
-  let todosIguales = true;
-  for (const caracter of pin) {
-    if (caracter !== pin[0]) {
-      todosIguales = false;
+  let sonIguales = true;
+
+  for (const digito of pin) {
+    if (digito !== pin[0]) {
+      sonIguales = false;
     }
   }
 
-  return !todosIguales;
+  return !sonIguales;
 }
