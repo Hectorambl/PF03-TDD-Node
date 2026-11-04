@@ -7,14 +7,14 @@ export function fibonacci(n) {
         return n;
     }
 
-    let a = 0;
-    let b = 1;
+    let anterior = 0;
+    let actual = 1;
 
     for (let i = 2; i <= n; i++) {
-        let siguiente = a + b;
-        a = b;
-        b = siguiente;
+        let siguiente = anterior + actual;
+        anterior = actual;
+        actual = siguiente;
     }
 
-    return b;
+    return actual;
 }
